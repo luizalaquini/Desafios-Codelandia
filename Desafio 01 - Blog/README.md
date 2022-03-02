@@ -10,6 +10,7 @@
 - Google Fonts
 
 # Layout
+![layout](https://user-images.githubusercontent.com/72242547/156296973-4b9c2ca7-1466-4737-a62d-92abd70a6286.png)
 
 # Autor
 Luiza Batista Laquini
