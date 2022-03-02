@@ -1,6 +1,7 @@
 # Desafio 01 - Blog
+Simulação de um Blog de notícias de TI.
 
-# Sobre
+Retorno depois de um tempo sem contato com as linguagens de Front. Minhas maiores dificuldades nesse primeiro desafio da comunidade foram configurar a barra de pesquisas e, algo que não foi pedido, mas eu escolhi fazer: implementar o funcionamento da função de favoritar notícias.
 
 # Tecnologias Utilizadas
 - HTML5
