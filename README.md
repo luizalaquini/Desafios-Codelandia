@@ -24,7 +24,7 @@ https://luizalaquini.github.io/Desafios-Codelandia/
 - [ ] Desafio 12 - La Pizza
 - [ ] Desafio 13 - Arcane
 - [ ] Desafio 14 - HelpDog
-- [ ] Desafio 15
+- [ ] Desafio 15 - README
 - [ ] Desafio 16 - Feliz Natal
 - [ ] Desafio 17 - Kenai
 - [ ] Desafio 18 - Spider-Man
