@@ -10,8 +10,8 @@ Veja os resultados aqui: [EM CONSTRUÇÃO]
 https://luizalaquini.github.io/Desafios-Codelandia/
 
 ### Lista
-- [ ] Desafio 1 - Blog
-- [ ] Desafio 2 - Jordan Shoes
+- [X] Desafio 1 - Blog
+- [X] Desafio 2 - Jordan Shoes
 - [ ] Desafio 3 - One Page 
 - [ ] Desafio 4 - Login
 - [ ] Desafio 5 - Studio Ghibli
