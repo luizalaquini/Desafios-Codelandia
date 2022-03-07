@@ -31,4 +31,4 @@ https://luizalaquini.github.io/Desafios-Codelandia/
 - [ ] Desafio 19 - Rachi 
 - [ ] Desafio 20 - Portfólio 2
 - [ ] Desafio 21 - XBOX
-- [ ] Desafio 22 - Projetos da Comunidade
+- [X] Desafio 22 - Projetos da Comunidade
