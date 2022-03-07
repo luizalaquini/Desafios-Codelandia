@@ -1,0 +1,218 @@
+:root {
+    --bgsite: #0E091B;
+    --bgcard: #171228;
+
+    --title: #F9F9F9;
+    --text: #AEAEAE;
+
+    --green: #04D361;
+    --purple: #873EFF;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    background-color: var(--bgsite);
+
+    width: 90%;
+    max-width: 1250px;
+    margin: 0 auto;
+    align-items: center;
+}
+
+.top {
+    display: flex; 
+    justify-content: space-between;
+}
+
+.logo {
+    font-family: Josefin Sans;
+    font-size: 32px;
+    margin-top: 63px;
+    color: var(--title);
+    text-transform: uppercase;
+}
+
+.bar {
+    font-family: DM Sans;
+    font-style: normal;
+    font-weight: bold;
+    color: var(--title);
+    text-transform: uppercase;
+
+    display: flex; 
+    justify-content: space-between;
+}
+
+#git {
+    margin-top: 68px;
+    margin-right: 93px;
+
+    font-size: 17px;
+    line-height: 22px;
+}
+
+#entrar{
+    margin-top: 48px;
+    padding: 21px 30px;
+
+    font-size: 15px;
+    line-height: 20px;
+
+    border: 1px solid var(--purple);
+    box-sizing: border-box;
+    border-radius: 6px;
+}
+
+#entrar:hover{
+    background-color: var(--purple);
+}
+
+.bar p a {
+    text-decoration: none;
+    color: var(--title);
+}
+
+.text {
+    max-width: 730px;
+}
+
+.text #top {
+    font-family: IBM Plex Mono;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 31px;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    color: var(--green);
+
+    margin-top: 80px;
+}
+
+.text #title {
+    font-family: IBM Plex Mono;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 56px;
+    line-height: 130%; /*or 83px*/
+    color: var(--title);
+}
+
+.text p {
+    font-family: DM Sans;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 170%; /*or 41px*/
+    color: var(--text);
+}
+
+.projects {
+    margin-top: 90px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 25px;
+}
+
+.card {
+    width: 400px;
+    height: 333.33px;
+
+    background: var(--bgcard);
+    border: 1px solid var(--purple);
+    box-sizing: border-box;
+    border-radius: 8px;
+
+    padding: 20px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.card img {
+    width: 360px;
+    height: 180px;
+    border-radius: 4px;
+}
+
+.card a {
+    text-decoration: none;
+}
+
+#title-card {
+    font-family: IBM Plex Mono;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 31px;
+    color: var(--title);
+
+    margin-top: 15px;
+}
+
+#button-card {
+    font-family: DM Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 15px;
+    line-height: 20px;
+    text-transform: uppercase;
+    color: var(--title);
+
+    background: var(--bgcard);
+    border: 1px solid var(--green);
+    box-sizing: border-box;
+    border-radius: 4px;
+
+    width: 165px;
+    height: 42px;
+    margin-top: 15px;
+
+    text-align: center;
+    padding-top: 10px;
+}
+
+#button-card:hover {
+    background-color: var(--green);
+}
+
+footer {
+    margin-top: 100px;
+    margin-bottom: 50px;
+
+    display: flex; 
+    justify-content: space-between;
+}
+
+.footer-logo {
+    font-family: Josefin Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 48px;
+    text-transform: uppercase;
+    color: var(--purple);
+}
+
+.rights {
+    font-family: IBM Plex Mono;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 150%; /*or 27px*/
+    color: var(--text);
+
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+    margin-top: 15px;
+}
