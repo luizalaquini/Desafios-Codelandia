@@ -1,4 +1,5 @@
 # Desafios Codelândia
+![GitHub](https://img.shields.io/github/license/luizalaquini/Desafios-Codelandia)
 ![GitHub repo size](https://img.shields.io/github/repo-size/luizalaquini/Desafios-Codelandia)
 ![GitHub language count](https://img.shields.io/github/languages/count/luizalaquini/Desafios-Codelandia)
 ![GitHub top language](https://img.shields.io/github/languages/top/luizalaquini/Desafios-Codelandia)
