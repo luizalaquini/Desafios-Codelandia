@@ -8,7 +8,8 @@
 Repositório para meus resultados dos desafios propostos pelo Prof. Iuri Silva na comunidade Codelândia do Discord!
 
 Veja os resultados aqui: [EM CONSTRUÇÃO]
-https://luizalaquini.github.io/Desafios-Codelandia/
+
+https://luizalaquini.github.io/Desafios-Codelandia/Desafio-22-Projetos-da-Comunidade/
 
 ### Lista
 - [X] Desafio 1 - Blog
