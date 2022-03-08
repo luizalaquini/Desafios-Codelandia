@@ -7,8 +7,9 @@
 
 Repositório para meus resultados dos desafios propostos pelo Prof. Iuri Silva na comunidade Codelândia do Discord!
 
-Veja os resultados aqui: [EM CONSTRUÇÃO]
+O desafio 15 consistie no README do perfil aqui no GitHub.
 
+O desafio 22 reúne todos os desafios em um portfólio da comunidade, o qual resolvi hospedar para facilitar a visualização dos resultados:
 https://luizalaquini.github.io/Desafios-Codelandia/Desafio-22-Projetos-da-Comunidade/
 
 ### Lista
