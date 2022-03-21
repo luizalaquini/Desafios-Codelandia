@@ -15,7 +15,7 @@ https://luizalaquini.github.io/Desafios-Codelandia/Desafio-22-Projetos-da-Comuni
 ### Lista
 - [X] Desafio 1 - Blog
 - [X] Desafio 2 - Jordan Shoes
-- [ ] Desafio 3 - One Page 
+- [X] Desafio 3 - One Page 
 - [ ] Desafio 4 - Login
 - [ ] Desafio 5 - Studio Ghibli
 - [ ] Desafio 6 - Loki
