@@ -159,6 +159,12 @@ html {
     margin-top: 15px;
 }
 
+.buttons {
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+}
+
 #button-card {
     font-family: DM Sans;
     font-style: normal;
