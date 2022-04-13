@@ -38,3 +38,4 @@ https://luizalaquini.github.io/Desafios-Codelandia/Desafio-22-Projetos-da-Comuni
 - [ ] Desafio 20 - Portfólio 2
 - [ ] Desafio 21 - XBOX
 - [X] Desafio 22 - Projetos da Comunidade
+- [ ] Desafio 23 - Music Legends
