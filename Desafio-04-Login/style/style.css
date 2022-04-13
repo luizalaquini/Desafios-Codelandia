@@ -148,6 +148,7 @@ form input {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    align-items: center;
 }
 
 .group-01 a, .group-01 p {
