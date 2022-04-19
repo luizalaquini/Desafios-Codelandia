@@ -1,0 +1,135 @@
+DESAFIO 2 - ETAPA 2 - Final (Animação)
+
+
+-------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Como criar um efeito parallax na imagem
+
+Use um elemento de contêiner e adicione uma imagem de plano de fundo ao contêiner com uma altura específica. 
+Em seguida, use o background-attachment: fixed para criar o efeito parallax. 
+As outras propriedades de fundo são usadas para centralizar e dimensionar a imagem perfeitamente.
+
+.parallax {
+  background-image: url("../img/wallpaper.png");
+  min-height: 500px; 
+
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+-------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+
+
+-------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+Vamos criar um efeito de digitação na descrição do wallpaper. Para isso vamos usar o biblioteca typed.js.
+
+Para usá-la é bem simples, primeiro temos que colocar o script da biblioteca em nossa página.
+
+*Temos o exemplo dele no arquivo exemplo3.png*
+
+Logo em seguida, colocamos outro script logo abaixo, nele vamos ter a duração do script, o id do que será escrito e o id onde será colocado animação do texto.
+
+*Temos o exemplo dele no arquivo exemplo4.png*
+
+(O arquivo de exemplo exemplo5.png, é id do que será escrito)
+(O arquivo de exemplo exemplo6.png, é o id onde será colocado animação do texto)
+
+
+
+Link da documentação => https://mattboldt.com/demos/typed-js/
+
+-------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+
+
+
+-------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Para a criação das animações usamos novamente a biblioteca JavaScript ScrollReveal.
+
+Você também pode seguir os passos no site deles
+Link da bibiblioteca JS => https://scrollrevealjs.org/
+
+-------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Para adicionar a animação é bem simples!
+
+Cole no final do seu arquivo index.html (antes do fechamento do html e body) o script abaixo:
+<script src="https://unpkg.com/scrollreveal"></script>
+
+*Temos o exemplo dele no arquivo exemplo0.png*
+
+-------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Logo abaixo, cole esse script para animar: 
+
+<script>
+        const sr = ScrollReveal({
+            origin: 'top',
+            distance: '50px',
+            duration: 2000,
+            reset: true
+        });
+
+        ScrollReveal().reveal('.container-post', { delay: 200 });
+        ScrollReveal().reveal('.date', { delay: 400 });
+        ScrollReveal().reveal('.title', { delay: 500 });
+        ScrollReveal().reveal('.description', { delay: 600 });
+</script>
+
+*Temos o exemplo dele no arquivo exemplo1.png*
+
+-------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Observações sobre a ScrollReveal:
+
+Observe que no script temos '.container-post', '.date', '.title' e '.description'. Essas são classes que criei nas tags html pai;
+*Temos o exemplo dele no arquivo exemplo2.png*
+
+O 'delay: XXX' é a demora que a animação irá aparecer;
+
+O 'origin: 'top'' é a origem de onde a animação está vindo (você pode mudar a direção da forma que quiser);
+
+O 'distance: '50px'' é a distância do começo da animação;
+
+O 'duration: 2000' é a velocidade da animação (é diferente do delay);
+
+O 'reset: true' é o reset da animação, então toda vez que você fazer o scroll a animação vai ocorrer;
+
+-------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+
+
+
+-------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Hover Card
+
+Ainda nos cards, vamos colocar um efeito de zoom quando passar o mouse.
+
+.exemplo:hover img{
+  transform: scale(1.3); //efeito de zoom na imagem
+  transition: 1s all ease; //delay do efeito
+}
+
+O :hover é usado para selecionar elementos quando você passa o mouse sobre eles.
+Nesse caso, quando o mouse passar no elemento que tenha a class "exemplo", terá um hover na img.
+
+
+Se você tiver um conhecimento maior com CSS, ao invés de criar o efeito de zoom, você pode fazer com que apareça o nome do tênis dentro do card.
+
+-------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+
+
+Boa sorte!
+By iuricode - Codelândia
