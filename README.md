@@ -5,9 +5,6 @@
 ![GitHub top language](https://img.shields.io/github/languages/top/luizalaquini/Desafios-Codelandia)
 ![GitHub followers](https://img.shields.io/github/followers/luizalaquini?label=Follow&style=social)
 
-## ⚠️ PRECISA CORRIGIR ERROS DE RESPONSIVIDADE 
----- REFAZER UTILIZANDO O CONTEÚDO DE BOOTSTRAP APRENDIDO.
-
 Repositório para meus resultados dos desafios propostos pelo Prof. Iuri Silva na comunidade Codelândia do Discord!
 
 O desafio 15 consistie no README do perfil aqui no GitHub.
