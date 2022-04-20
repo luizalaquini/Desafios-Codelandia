@@ -12,6 +12,15 @@ O desafio 15 consistie no README do perfil aqui no GitHub.
 O desafio 22 reúne todos os desafios em um portfólio da comunidade, o qual resolvi hospedar para facilitar a visualização dos resultados:
 https://luizalaquini.github.io/Desafios-Codelandia/Desafio-22-Projetos-da-Comunidade/
 
+### Tecnologias Utilizadas
+- HTML 5
+- CSS 3
+- Javascript
+- Jquery 
+- Bootstrap 5
+- Google Fonts
+- Icons 8
+
 ### Lista
 - [X] Desafio 1 - Blog
 - [X] Desafio 2 - Jordan Shoes
