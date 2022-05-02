@@ -23,7 +23,7 @@ https://luizalaquini.github.io/Desafios-Codelandia/Desafio-22-Projetos-da-Comuni
 
 ### Lista
 - [X] Desafio 1 - Blog
-- [X] Desafio 2 - Jordan Shoes
+- [X] Desafio 2 - JordanShoes
 - [X] Desafio 3 - One Page 
 - [X] Desafio 4 - Login
 - [ ] Desafio 5 - Studio Ghibli
@@ -45,3 +45,5 @@ https://luizalaquini.github.io/Desafios-Codelandia/Desafio-22-Projetos-da-Comuni
 - [ ] Desafio 21 - XBOX
 - [X] Desafio 22 - Projetos da Comunidade
 - [ ] Desafio 23 - Music Legends
+- [ ] Desafio 24 - Arcane 2
+- [ ] Desafio 25 - HomeYou
