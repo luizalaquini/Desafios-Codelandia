@@ -1,0 +1,30 @@
+:root {
+    --verdeClaro: #628E75;
+    --verdeEscuro: #1A4855;
+    --branco: #F9F9F9;
+}
+
+html,
+body {
+    padding: 0;
+    margin: 0;
+    font-family: 'Popins', sans-serif;
+    font-style: normal;
+    color: var(--branco);
+}
+
+html {
+    background: linear-gradient(135deg, var(--verdeClaro), var(--verdeEscuro));
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    margin: 0 auto;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+* {
+    box-sizing: border-box;
+}
