@@ -10,7 +10,7 @@ Repositório para meus resultados dos desafios propostos pelo Prof. Iuri Silva n
 O desafio 15 consistie no README do perfil aqui no GitHub.
 
 O desafio 22 reúne todos os desafios em um portfólio da comunidade, o qual resolvi hospedar para facilitar a visualização dos resultados:
-https://luizalaquini.github.io/Desafios-Codelandia/Desafio-22-Projetos-da-Comunidade/
+https://luizalaquini.github.io/Desafios-Codelandia/desafio-22-projetos-da-comunidade/
 
 ### Tecnologias Utilizadas
 - HTML 5
@@ -26,7 +26,7 @@ https://luizalaquini.github.io/Desafios-Codelandia/Desafio-22-Projetos-da-Comuni
 - [X] Desafio 2 - JordanShoes
 - [X] Desafio 3 - One Page 
 - [X] Desafio 4 - Login
-- [ ] Desafio 5 - Studio Ghibli
+- [X] Desafio 5 - Studio Ghibli
 - [ ] Desafio 6 - Loki
 - [ ] Desafio 7 - Valorant
 - [ ] Desafio 8 - CodeMoji
