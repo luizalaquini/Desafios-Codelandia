@@ -1,3 +1,5 @@
+.body {margin: 0 auto}
+
 .container {
     margin: 0 auto;
     padding: 25px;
@@ -112,37 +114,45 @@
     margin-right: 10px;
 }
 
-@media (min-width: 600px) {
+@media (min-width: 1080px) {
+    .body { width: 90%; }
     .main { flex-direction: row-reverse;}
     .head { margin-bottom: 60px; }
     .textContainer, .imgContainer { width: 50vw; }
-
 }
 
-@media (max-width: 770px) {
-    .imgContainer img {
-        width: 320px;
-        height: 320px;
-    }
-    .buttonsContainer a { font-size: small;}
+@media (min-width: 1600px) {
+    .body { width: 86%; }
+    .imgContainer img { width: 650px; height: 650px; }
+    .subtitle { font-size: 28px; }
+    .title { font-size: 78px; }
+    .description { font-size: 26px; }
+    .buttonWatchNow, .buttonTrailer { width: 300px; height: 75px; font-size: 26px; }
+    .buttonWatchNow img { width: 26px; height: 30px;}
+}
+
+@media (min-width: 2200px) {
+    .body { width: 82% }
+    .imgContainer img { width: 700px; height: 700px; }
+    .subtitle { font-size: 38px; }
+    .title { font-size: 88px; }
+    .description { font-size: 36px; }
+    .buttonWatchNow, .buttonTrailer { width: 400px; height: 100px; font-size: 36px; }
+    .buttonWatchNow img { width: 36px; height: 40px;}
+}
+
+@media (max-width: 1080px) {
+    .body { width: 95%; }
+}
+
+@media (max-width: 550px) {
     .title { font-size: 54px; }
 }
 
-@media (min-width: 1000px) {
-    .container { width: 95%; }
+@media (max-width: 500px) {
+    .buttonsContainer { flex-direction: column; }
 }
 
-@media (min-width: 1400px) {
-    .container { width: 82%; }
-}
-
-@media (max-width: 376px) {
-    .social { gap: 18px }
-
-    .subtitle { font-size: 16px; }
-    .description { font-size: 14px; }
-
-    .buttonsContainer {
-        flex-direction: column;
-    }
+@media (max-width: 465px){
+    .imgContainer img { width: 375px; height: 375px; }
 }

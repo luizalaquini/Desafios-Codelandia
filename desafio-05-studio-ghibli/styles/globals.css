@@ -17,7 +17,6 @@ html {
     background: linear-gradient(135deg, var(--verdeClaro), var(--verdeEscuro));
     background-repeat: no-repeat;
     background-attachment: fixed;
-    margin: 0 auto;
 }
 
 a {

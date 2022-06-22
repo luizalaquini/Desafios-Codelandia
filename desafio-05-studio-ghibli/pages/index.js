@@ -3,17 +3,13 @@ import styles from '../styles/Home.module.css'
 
 export default function Home() {
     return (
-        <div className={styles.container}>
+        <main className={styles.container}>
             <Head>
                 <title>Studio Ghibli</title>
-                <link rel="icon" href="/favicon.ico" />
-
-                <link rel="preconnect" href="https://fonts.googleapis.com" />
-                <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-                <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700;900&display=swap" rel="stylesheet" />
+                <link rel="icon" href="/icon-totoro.svg" />
             </Head>
 
-            <body>
+            <div className={styles.body}>
                 <div className={styles.head}>
                     
                     <img src='/logo.svg'></img>
@@ -44,7 +40,7 @@ export default function Home() {
                         </div>
                     </div>
                 </div>
-            </body>
-        </div>
+            </div>
+        </main>
     )
 }
